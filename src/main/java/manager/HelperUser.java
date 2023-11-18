@@ -19,10 +19,14 @@ public class HelperUser extends HelperBase {
         type(By.xpath("//*[@id='lastName']"), user.getLastName());
         type(By.xpath("//*[@id='email']"), user.getEmail());
         type(By.xpath("//*[@id='password']"), user.getPassword());
-        type("document.querySelector('.checkbox-label.terms-label').click();");
-//        JavascriptExecutor js = (JavascriptExecutor) wd;
-//        js.executeScript("document.querySelector('.checkbox-label.terms-label').click();");
-
+        clickCheckbox();
+    }
+    public void clickCheckbox(){
+        //Variant 1
+        //click(By.cssSelector(".checkbox-label.terms-label"));
+        //Variant 2
+        JavascriptExecutor js = (JavascriptExecutor) wd;
+        js.executeScript("document.querySelector('#terms-of-use').click();");
     }
 
     public void openLoginForm(){
@@ -34,7 +38,8 @@ public class HelperUser extends HelperBase {
         type(By.xpath("//*[@id='password']"), password);
 
 
-    }public void fillLoginForm(User user){
+    }
+    public void fillLoginForm(User user){
         type(By.xpath("//*[@id='email']"), user.getEmail());
         type(By.xpath("//*[@id='password']"), user.getPassword());
 
@@ -57,7 +62,15 @@ public class HelperUser extends HelperBase {
         click(By.xpath("//*[text()=' Logout ']"));
     }
     public boolean isLogged(){
-       return isElementPresent(By.xpath("//*[text()=' Logout ']"));
+
+        return isElementPresent(By.xpath("//*[text()=' Logout ']"));
+    }
+    public void logIn(User user){
+        openLoginForm();
+        fillLoginForm(user);
+        submitLoginForm();
+        submitOkButton();
+
     }
 
 

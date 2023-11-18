@@ -24,10 +24,6 @@ public class HelperBase {
         element.sendKeys(text);
 
     }
-    public void type(String text) {
-        JavascriptExecutor js = (JavascriptExecutor) wd;
-        js.executeScript(text);
-    }
     public boolean isElementPresent(By locator){
 
         return wd.findElements(locator).size()>0;

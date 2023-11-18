@@ -39,12 +39,15 @@ public class LoginTests extends TestBase {
         app.getUser().openLoginForm();
         app.getUser().fillLoginForm(user);
         app.getUser().submitLoginForm();
+        app.getUser().pause(3000);
+        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//*[text()=' Logout ']")));
+
     }
     @AfterMethod
     public void postconditions() {
         app.getUser().submitOkButton();
-         app.getUser().pause(3000);
-        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//*[text()=' Logout ']")));
+//         app.getUser().pause(3000);
+//        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//*[text()=' Logout ']")));
     }
 
 }
