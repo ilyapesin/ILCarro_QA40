@@ -3,6 +3,8 @@ package manager;
 import models.Car;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -27,6 +29,7 @@ public class HelperCar extends HelperBase {
         type(By.id("seats"), car.getSeats());
         type(By.id("class"), car.getCarClass());
         type(By.id("serialNumber"), car.getCarRegNumber());
+       // clickSerialNumber(car.getCarRegNumber());
         type(By.id("price"), car.getPrice());
 
     }
@@ -50,5 +53,17 @@ public class HelperCar extends HelperBase {
                             "details"));
 
 }
+    public void clickSerialNumber(String text){
+
+//        Rectangle rect = wd.findElement(By.id("serialNumber")).getRect();
+        WebElement rect = wd.findElement(By.id("serialNumber"));
+//        int x = rect.getX() + rect.getWidth() * 7 / 8;
+//        int y = rect.getY() + rect.getHeight() / 2;
+        Actions actions = new Actions(wd);
+//        actions.moveByOffset(x, y).click().perform();
+        actions.moveToElement(rect).click().perform();
+        rect.clear();
+        rect.sendKeys(text);
+    }
 
 }
