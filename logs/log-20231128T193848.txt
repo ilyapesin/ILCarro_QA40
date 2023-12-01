@@ -1,0 +1,22 @@
+19:38:55 INFO  manager.TestNGListener - Test started
+19:38:55 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+19:39:00 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+19:39:00 INFO  manager.TestNGListener - Testnull started
+19:39:00 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Sign up ']
+19:39:00 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Sign up '] is found
+19:39:00 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='name']
+19:39:00 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='name'] is found
+19:39:00 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='lastName']
+19:39:00 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='lastName'] is found
+19:39:00 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='email']
+19:39:00 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='email'] is found
+19:39:00 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='password']
+19:39:00 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='password'] is found
+19:39:00 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@type='submit']
+19:39:00 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@type='submit'] is found
+19:39:00 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+19:39:02 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+19:39:02 INFO  manager.TestNGListener - Test
+19:39:02 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='button']
+19:39:02 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@type='button'] is found
+19:39:02 INFO  manager.TestNGListener - Test finished

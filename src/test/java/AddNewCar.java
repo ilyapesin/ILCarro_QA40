@@ -1,9 +1,11 @@
+import manager.TestNGListener;
 import models.Car;
 import models.User;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
+@Listeners(TestNGListener.class)
 public class AddNewCar extends TestBase {
 @BeforeMethod
     public void preconditions(){
@@ -39,7 +41,8 @@ public class AddNewCar extends TestBase {
 }
 @AfterMethod
     public void postconditions(){
-   app.getCar().submitShowCar();
+
+    //app.getCar().submitShowCar();
     }
 
 }

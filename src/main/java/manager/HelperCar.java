@@ -42,13 +42,13 @@ public class HelperCar extends HelperBase {
     public void submitShowCar() {
         click(By.xpath("//*[text()='Show car']"));
     }
-//public boolean isCarFormPresent() {
-//    return new WebDriverWait(wd, 10)
-//            .until(ExpectedConditions
-//                    .textToBePresentInElement(
-//                            wd.findElement(By.cssSelector("h2")),
-//                            "details"));
-//
-//}
+    public boolean isCarFormPresent() {
+    return new WebDriverWait(wd, 10)
+            .until(ExpectedConditions
+                    .textToBePresentInElement(
+                            wd.findElement(By.cssSelector("h2")),
+                            "details"));
+
+}
 
 }
