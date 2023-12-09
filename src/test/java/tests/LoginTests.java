@@ -1,3 +1,6 @@
+package tests;
+
+import manager.ProviderData;
 import manager.TestNGListener;
 import models.User;
 import org.openqa.selenium.By;
@@ -8,7 +11,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 @Listeners(TestNGListener.class)
 public class LoginTests extends TestBase {
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preconditions() {
         if (app.getUser().isLogged()) {
             app.getUser().logOut();
@@ -43,6 +46,19 @@ public class LoginTests extends TestBase {
         app.getUser().submitLoginForm();
         app.getUser().pause(3000);
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//*[text()=' Logout ']")));
+
+    }
+    @Test(dataProvider ="userDTO",dataProviderClass = ProviderData.class)
+    public void testLoginPositiveUserDTO(User user){
+//        User user=new User()
+//                .withEmail("vasya_pupkin@gmail.com")
+//                .withPassword("Vp12345$")
+//                ;
+        app.getUser().openLoginForm();
+        app.getUser().fillLoginForm(user);
+        app.getUser().submitLoginForm();
+        app.getUser().pause(3000);
+       Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//*[text()=' Logout ']")));
 
     }
     @AfterMethod

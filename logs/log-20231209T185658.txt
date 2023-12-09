@@ -1,0 +1,23 @@
+18:57:00 INFO  manager.ApplicationManager - Tests start on Chrome
+18:57:05 INFO  manager.TestNGListener - Test started
+18:57:05 INFO  tests.TestBase - Test testLoginPositiveUserDTO started
+18:57:05 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+18:57:10 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+18:57:10 INFO  manager.TestNGListener - TesttestLoginPositiveUserDTO started
+18:57:10 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Log in ']
+18:57:10 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Log in '] is found
+18:57:10 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='email']
+18:57:10 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='email'] is found
+18:57:11 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='password']
+18:57:11 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='password'] is found
+18:57:11 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='submit']
+18:57:11 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@type='submit'] is found
+18:57:14 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+18:57:14 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+18:57:14 INFO  manager.TestNGListener - Test testLoginPositiveUserDTO successfully
+18:57:14 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='button']
+18:57:14 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@type='button'] is found
+18:57:17 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+18:57:17 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+18:57:17 INFO  tests.TestBase - ================================
+18:57:17 INFO  manager.TestNGListener - Test finished

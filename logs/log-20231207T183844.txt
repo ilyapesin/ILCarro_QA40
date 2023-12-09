@@ -1,0 +1,42 @@
+18:38:52 INFO  manager.TestNGListener - Test started
+18:38:52 INFO  tests.TestBase - Test testLoginPositiveUserData started
+18:38:52 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+18:38:57 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+18:38:57 INFO  manager.TestNGListener - TesttestLoginPositiveUserData started
+18:38:57 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Log in ']
+18:38:57 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Log in '] is found
+18:38:57 INFO  manager.WebDriverListener - Exception
+18:38:57 INFO  manager.WebDriverListener - 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:c4e8:3df2:29c2:8c2f:eb66%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 17.0, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 22G120, safari:platformVersion: 13.6, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: E75C7F78-CC0F-4A07-8753-797B69D5E8ED
+18:38:57 INFO  manager.WebDriverListener - org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:c4e8:3df2:29c2:8c2f:eb66%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 17.0, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 22G120, safari:platformVersion: 13.6, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: E75C7F78-CC0F-4A07-8753-797B69D5E8ED
+18:38:57 INFO  manager.WebDriverListener - Screenshot----> src/test/screenshots/screen2337.png
+18:38:57 INFO  manager.TestNGListener - Test
+18:38:57 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='button']
+18:39:02 INFO  manager.WebDriverListener - Exception
+18:39:02 INFO  manager.WebDriverListener - 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:c4e8:3df2:29c2:8c2f:eb66%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 17.0, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 22G120, safari:platformVersion: 13.6, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: E75C7F78-CC0F-4A07-8753-797B69D5E8ED
+*** Element info: {Using=xpath, value=//button[@type='button']}
+18:39:02 INFO  manager.WebDriverListener - org.openqa.selenium.NoSuchElementException: 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:c4e8:3df2:29c2:8c2f:eb66%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 17.0, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 22G120, safari:platformVersion: 13.6, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: E75C7F78-CC0F-4A07-8753-797B69D5E8ED
+*** Element info: {Using=xpath, value=//button[@type='button']}
+18:39:03 INFO  manager.WebDriverListener - Screenshot----> src/test/screenshots/screen2342.png
+18:39:03 INFO  manager.TestNGListener - Test finished

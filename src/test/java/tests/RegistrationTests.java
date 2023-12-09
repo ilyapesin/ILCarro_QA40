@@ -1,12 +1,15 @@
+package tests;
+
 import manager.TestNGListener;
 import models.User;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.*;
+import tests.TestBase;
 
 @Listeners(TestNGListener.class)
 
-public class RegistrationTests extends TestBase{
+public class RegistrationTests extends TestBase {
     @BeforeMethod
     public void preconditions() {
         if (app.getUser().isLogged()) {

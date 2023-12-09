@@ -1,0 +1,4 @@
+18:40:01 INFO  manager.TestNGListener - Test started
+18:40:01 INFO  manager.TestNGListener - TesttestLoginPositiveUserData started
+18:40:01 INFO  manager.TestNGListener - Test skipped
+18:40:01 INFO  manager.TestNGListener - Test finished

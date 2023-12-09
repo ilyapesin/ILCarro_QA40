@@ -1,5 +1,5 @@
 18:42:59 INFO  manager.TestNGListener - Test started
-18:42:59 INFO  TestBase - Test testAddNewCarPositive started
+18:42:59 INFO  tests.TestBase - Test testAddNewCarPositive started
 18:42:59 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
 18:43:04 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
 18:43:04 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Log in ']
@@ -40,5 +40,5 @@
 18:43:10 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='submit']
 18:43:10 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@type='submit'] is found
 18:43:11 INFO  manager.TestNGListener - Test testAddNewCarPositive successfully
-18:43:11 INFO  TestBase - ================================
+18:43:11 INFO  tests.TestBase - ================================
 18:43:11 INFO  manager.TestNGListener - Test finished

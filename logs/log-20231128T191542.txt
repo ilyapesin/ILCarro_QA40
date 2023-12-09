@@ -2,7 +2,7 @@
 19:15:54 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
 19:15:54 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Sign up ']
 19:15:54 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Sign up '] is found
-19:15:54 INFO  TestBase - openRegistrationForm invoked
+19:15:54 INFO  tests.TestBase - openRegistrationForm invoked
 19:15:54 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='name']
 19:15:54 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='name'] is found
 19:15:54 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='lastName']

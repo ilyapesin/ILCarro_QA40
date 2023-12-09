@@ -1,0 +1,44 @@
+19:20:03 INFO  manager.TestNGListener - Test started
+19:20:03 INFO  tests.TestBase - Test testAddNewCarPositive started
+19:20:03 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+19:20:08 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+19:20:08 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Log in ']
+19:20:08 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Log in '] is found
+19:20:08 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='email']
+19:20:08 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='email'] is found
+19:20:09 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='password']
+19:20:09 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='password'] is found
+19:20:09 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='submit']
+19:20:09 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@type='submit'] is found
+19:20:09 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='button']
+19:20:11 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@type='button'] is found
+19:20:11 INFO  manager.TestNGListener - TesttestAddNewCarPositive started
+19:20:14 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //a[.=' Let the car work ']
+19:20:14 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //a[.=' Let the car work '] is found
+19:20:14 INFO  manager.WebDriverListener - Start searching element---> By.id: pickUpPlace
+19:20:14 INFO  manager.WebDriverListener - Element with locator--->By.id: pickUpPlace is found
+19:20:15 INFO  manager.WebDriverListener - Start searching element---> By.cssSelector: div.pac-item
+19:20:15 INFO  manager.WebDriverListener - Element with locator--->By.cssSelector: div.pac-item is found
+19:20:15 INFO  manager.WebDriverListener - Start searching element---> By.id: make
+19:20:15 INFO  manager.WebDriverListener - Element with locator--->By.id: make is found
+19:20:15 INFO  manager.WebDriverListener - Start searching element---> By.id: model
+19:20:15 INFO  manager.WebDriverListener - Element with locator--->By.id: model is found
+19:20:15 INFO  manager.WebDriverListener - Start searching element---> By.id: year
+19:20:15 INFO  manager.WebDriverListener - Element with locator--->By.id: year is found
+19:20:15 INFO  manager.WebDriverListener - Start searching element---> By.id: fuel
+19:20:15 INFO  manager.WebDriverListener - Element with locator--->By.id: fuel is found
+19:20:15 INFO  manager.WebDriverListener - Start searching element---> By.xpath: .//option[@value = "Petrol"]
+19:20:15 INFO  manager.WebDriverListener - Element with locator--->By.xpath: .//option[@value = "Petrol"] is found
+19:20:15 INFO  manager.WebDriverListener - Start searching element---> By.id: seats
+19:20:15 INFO  manager.WebDriverListener - Element with locator--->By.id: seats is found
+19:20:15 INFO  manager.WebDriverListener - Start searching element---> By.id: class
+19:20:15 INFO  manager.WebDriverListener - Element with locator--->By.id: class is found
+19:20:15 INFO  manager.WebDriverListener - Start searching element---> By.id: serialNumber
+19:20:15 INFO  manager.WebDriverListener - Element with locator--->By.id: serialNumber is found
+19:20:15 INFO  manager.WebDriverListener - Start searching element---> By.id: price
+19:20:15 INFO  manager.WebDriverListener - Element with locator--->By.id: price is found
+19:20:15 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='submit']
+19:20:15 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@type='submit'] is found
+19:20:16 INFO  manager.TestNGListener - Test testAddNewCarPositive successfully
+19:20:16 INFO  tests.TestBase - ================================
+19:20:16 INFO  manager.TestNGListener - Test finished

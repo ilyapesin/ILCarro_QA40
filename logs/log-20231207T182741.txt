@@ -1,0 +1,112 @@
+18:27:55 INFO  manager.TestNGListener - Test started
+18:27:55 INFO  tests.TestBase - Test testAddNewCarPositive started
+18:27:55 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+18:28:00 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+18:28:00 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Log in ']
+18:28:00 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Log in '] is found
+18:28:00 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='email']
+18:28:00 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='email'] is found
+18:28:00 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='password']
+18:28:00 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='password'] is found
+18:28:00 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='submit']
+18:28:00 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@type='submit'] is found
+18:28:00 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='button']
+18:28:02 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@type='button'] is found
+18:28:02 INFO  manager.TestNGListener - TesttestAddNewCarPositive started
+18:28:05 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //a[.=' Let the car work ']
+18:28:05 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //a[.=' Let the car work '] is found
+18:28:05 INFO  manager.WebDriverListener - Start searching element---> By.id: pickUpPlace
+18:28:05 INFO  manager.WebDriverListener - Element with locator--->By.id: pickUpPlace is found
+18:28:05 INFO  manager.WebDriverListener - Start searching element---> By.cssSelector: div.pac-item
+18:28:06 INFO  manager.WebDriverListener - Element with locator--->By.cssSelector: div.pac-item is found
+18:28:06 INFO  manager.WebDriverListener - Start searching element---> By.id: make
+18:28:06 INFO  manager.WebDriverListener - Element with locator--->By.id: make is found
+18:28:06 INFO  manager.WebDriverListener - Start searching element---> By.id: model
+18:28:06 INFO  manager.WebDriverListener - Element with locator--->By.id: model is found
+18:28:06 INFO  manager.WebDriverListener - Start searching element---> By.id: year
+18:28:06 INFO  manager.WebDriverListener - Element with locator--->By.id: year is found
+18:28:06 INFO  manager.WebDriverListener - Start searching element---> By.id: fuel
+18:28:06 INFO  manager.WebDriverListener - Element with locator--->By.id: fuel is found
+18:28:06 INFO  manager.WebDriverListener - Start searching element---> By.xpath: .//option[@value = "Petrol"]
+18:28:06 INFO  manager.WebDriverListener - Element with locator--->By.xpath: .//option[@value = "Petrol"] is found
+18:28:06 INFO  manager.WebDriverListener - Start searching element---> By.id: seats
+18:28:06 INFO  manager.WebDriverListener - Element with locator--->By.id: seats is found
+18:28:06 INFO  manager.WebDriverListener - Start searching element---> By.id: class
+18:28:06 INFO  manager.WebDriverListener - Element with locator--->By.id: class is found
+18:28:06 INFO  manager.WebDriverListener - Start searching element---> By.id: serialNumber
+18:28:06 INFO  manager.WebDriverListener - Element with locator--->By.id: serialNumber is found
+18:28:06 INFO  manager.WebDriverListener - Start searching element---> By.id: price
+18:28:06 INFO  manager.WebDriverListener - Element with locator--->By.id: price is found
+18:28:06 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='submit']
+18:28:06 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@type='submit'] is found
+18:28:06 INFO  manager.TestNGListener - Test testAddNewCarPositive successfully
+18:28:06 INFO  tests.TestBase - ================================
+18:28:06 INFO  tests.TestBase - Test testLoginPositive started
+18:28:06 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+18:28:06 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+18:28:06 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+18:28:06 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+18:28:07 INFO  manager.TestNGListener - TesttestLoginPositive started
+18:28:07 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Log in ']
+18:28:07 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Log in '] is found
+18:28:07 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='email']
+18:28:07 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='email'] is found
+18:28:07 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='password']
+18:28:07 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='password'] is found
+18:28:07 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='submit']
+18:28:07 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@type='submit'] is found
+18:28:07 INFO  manager.TestNGListener - Test testLoginPositive successfully
+18:28:07 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='button']
+18:28:07 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@type='button'] is found
+18:28:07 INFO  tests.TestBase - ================================
+18:28:07 INFO  tests.TestBase - Test testLoginPositiveUser started
+18:28:07 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+18:28:07 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+18:28:07 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+18:28:07 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+18:28:08 INFO  manager.WebDriverListener - Exception
+18:28:08 INFO  manager.WebDriverListener - element click intercepted: Element <a _ngcontent-wts-c44="" class="navigation-link ng-star-inserted" ng-reflect-query-params="[object Object]" ng-reflect-router-link="logout" href="/logout?url=%2Fsearch">...</a> is not clickable at point (841, 9). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=119.0.6045.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:c4e8:3df2:29c2:8c2f:eb66%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58323}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d395846d6cc306014baffde95b55d320
+18:28:08 INFO  manager.WebDriverListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-wts-c44="" class="navigation-link ng-star-inserted" ng-reflect-query-params="[object Object]" ng-reflect-router-link="logout" href="/logout?url=%2Fsearch">...</a> is not clickable at point (841, 9). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=119.0.6045.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:c4e8:3df2:29c2:8c2f:eb66%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58323}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d395846d6cc306014baffde95b55d320
+18:28:09 INFO  manager.WebDriverListener - Screenshot----> src/test/screenshots/screen1688.png
+18:28:09 INFO  manager.TestNGListener - TesttestLoginPositiveUser started
+18:28:09 INFO  manager.TestNGListener - Test skipped
+18:28:09 INFO  manager.TestNGListener - TesttestLoginPositiveUserData started
+18:28:09 INFO  manager.TestNGListener - Test skipped
+18:28:09 INFO  tests.TestBase - Test testRegistrationNegativeWrongPassword started
+18:28:09 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+18:28:09 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+18:28:09 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+18:28:09 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+18:28:10 INFO  manager.WebDriverListener - Exception
+18:28:10 INFO  manager.WebDriverListener - element click intercepted: Element <a _ngcontent-wts-c44="" class="navigation-link ng-star-inserted" ng-reflect-query-params="[object Object]" ng-reflect-router-link="logout" href="/logout?url=%2Fsearch">...</a> is not clickable at point (841, 9). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=119.0.6045.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:c4e8:3df2:29c2:8c2f:eb66%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58323}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d395846d6cc306014baffde95b55d320
+18:28:10 INFO  manager.WebDriverListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-wts-c44="" class="navigation-link ng-star-inserted" ng-reflect-query-params="[object Object]" ng-reflect-router-link="logout" href="/logout?url=%2Fsearch">...</a> is not clickable at point (841, 9). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=119.0.6045.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:c4e8:3df2:29c2:8c2f:eb66%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58323}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d395846d6cc306014baffde95b55d320
+18:28:10 INFO  manager.WebDriverListener - Screenshot----> src/test/screenshots/screen1690.png
+18:28:10 INFO  manager.TestNGListener - TesttestRegistrationNegativeWrongPassword started
+18:28:10 INFO  manager.TestNGListener - Test skipped
+18:28:10 INFO  manager.TestNGListener - TesttestRegistrationPositive started
+18:28:10 INFO  manager.TestNGListener - Test skipped
+18:28:10 INFO  manager.TestNGListener - Test finished

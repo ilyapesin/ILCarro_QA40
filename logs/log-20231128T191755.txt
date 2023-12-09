@@ -2,7 +2,7 @@
 19:18:07 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
 19:18:07 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Sign up ']
 19:18:07 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Sign up '] is found
-19:18:08 INFO  TestBase - openRegistrationForm invoked
+19:18:08 INFO  tests.TestBase - openRegistrationForm invoked
 19:18:08 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='name']
 19:18:08 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='name'] is found
 19:18:08 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='lastName']
@@ -11,11 +11,11 @@
 19:18:08 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='email'] is found
 19:18:08 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='password']
 19:18:08 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='password'] is found
-19:18:08 INFO  TestBase - fillRegistrationForm invoked
+19:18:08 INFO  tests.TestBase - fillRegistrationForm invoked
 19:18:08 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@type='submit']
 19:18:08 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@type='submit'] is found
-19:18:08 INFO  TestBase - submitRegistrationForm invoked
-19:18:08 INFO  TestBase - registrationPositive starts successfully with credentials: login vasya_pupkin1087@gmail.com password Vp12345$
+19:18:08 INFO  tests.TestBase - submitRegistrationForm invoked
+19:18:08 INFO  tests.TestBase - registrationPositive starts successfully with credentials: login vasya_pupkin1087@gmail.com password Vp12345$
 19:18:08 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
 19:18:09 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
 19:18:09 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='button']

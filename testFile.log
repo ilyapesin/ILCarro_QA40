@@ -1,2 +1,2 @@
-19:15:18 INFO  TestBase - registrationPositive starts successfully with credentials: login vasya_pupkin917@gmail.com password Vp12345$
-19:18:12 INFO  TestBase - registrationPositive starts successfully with credentials: login vasya_pupkin1091@gmail.com password Vp12345$
+19:15:18 INFO  tests.TestBase - registrationPositive starts successfully with credentials: login vasya_pupkin917@gmail.com password Vp12345$
+19:18:12 INFO  tests.TestBase - registrationPositive starts successfully with credentials: login vasya_pupkin1091@gmail.com password Vp12345$

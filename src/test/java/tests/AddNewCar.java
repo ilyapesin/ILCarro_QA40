@@ -1,3 +1,5 @@
+package tests;
+
 import manager.TestNGListener;
 import models.Car;
 import models.User;
@@ -5,6 +7,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import tests.TestBase;
+
 @Listeners(TestNGListener.class)
 public class AddNewCar extends TestBase {
 @BeforeMethod
