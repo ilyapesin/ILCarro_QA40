@@ -20,11 +20,11 @@ public class ProviderData {
                 .withEmail("vasya_pupkin@gmail.com")
                 .withPassword("Vp12345$")});
         list.add(new Object[]{new User()
-                .withEmail("vasya_pupkin@gmail.com")
-                .withPassword("Vp12345$")});
+                .withEmail("joe_1@gmail.com")
+                .withPassword("$Asdf1234")});
         list.add(new Object[]{new User()
-                .withEmail("vasya_pupkin@gmail.com")
-                .withPassword("Vp12345$")});
+                .withEmail("joe_2@gmail.com")
+                .withPassword("$Asdf1235")});
         return list.iterator();
 
     }
