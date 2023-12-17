@@ -1,0 +1,65 @@
+22:39:16 INFO  manager.TestNGListener - Test started
+22:39:16 INFO  tests.TestBase - Test testLoginPositive started
+22:39:16 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+22:39:21 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+22:39:21 INFO  manager.TestNGListener - TesttestLoginPositive started
+22:39:21 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Log in ']
+22:39:21 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Log in '] is found
+22:39:21 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='email']
+22:39:21 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='email'] is found
+22:39:21 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='password']
+22:39:21 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='password'] is found
+22:39:21 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='submit']
+22:39:21 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@type='submit'] is found
+22:39:21 INFO  manager.TestNGListener - Test testLoginPositive successfully
+22:39:21 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='button']
+22:39:23 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@type='button'] is found
+22:39:23 INFO  tests.TestBase - ================================
+22:39:23 INFO  tests.TestBase - Test testLoginPositiveProps started
+22:39:23 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+22:39:23 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+22:39:23 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+22:39:23 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+22:39:23 INFO  manager.TestNGListener - TesttestLoginPositiveProps started
+22:39:23 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Log in ']
+22:39:23 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Log in '] is found
+22:39:23 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='email']
+22:39:28 INFO  manager.WebDriverListener - Exception
+22:39:28 INFO  manager.WebDriverListener - 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:8a5b:653c:d9e7:a0d5:42e1%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 17.0, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 22G120, safari:platformVersion: 13.6, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: 528C7B43-90D3-4B3E-96CF-41E6726302A5
+*** Element info: {Using=xpath, value=//*[@id='email']}
+22:39:28 INFO  manager.WebDriverListener - org.openqa.selenium.NoSuchElementException: 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:8a5b:653c:d9e7:a0d5:42e1%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 17.0, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 22G120, safari:platformVersion: 13.6, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: 528C7B43-90D3-4B3E-96CF-41E6726302A5
+*** Element info: {Using=xpath, value=//*[@id='email']}
+22:39:28 INFO  manager.WebDriverListener - Screenshot----> src/test/screenshots/screen2368.png
+22:39:28 INFO  manager.TestNGListener - Test
+22:39:28 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='button']
+22:39:33 INFO  manager.WebDriverListener - Exception
+22:39:33 INFO  manager.WebDriverListener - 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:8a5b:653c:d9e7:a0d5:42e1%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 17.0, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 22G120, safari:platformVersion: 13.6, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: 528C7B43-90D3-4B3E-96CF-41E6726302A5
+*** Element info: {Using=xpath, value=//button[@type='button']}
+22:39:33 INFO  manager.WebDriverListener - org.openqa.selenium.NoSuchElementException: 
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:8a5b:653c:d9e7:a0d5:42e1%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.safari.SafariDriver
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 17.0, javascriptEnabled: true, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 22G120, safari:platformVersion: 13.6, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+Session ID: 528C7B43-90D3-4B3E-96CF-41E6726302A5
+*** Element info: {Using=xpath, value=//button[@type='button']}
+22:39:34 INFO  manager.WebDriverListener - Screenshot----> src/test/screenshots/screen2373.png
+22:39:34 INFO  manager.TestNGListener - Test finished

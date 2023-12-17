@@ -26,28 +26,37 @@ public class LoginTests extends TestBase {
         app.getUser().submitLoginForm();
     }
     @Test
-    public void testLoginPositiveUser() {
-        User user=new User()
-                .withEmail("vasya_pupkin@gmail.com")
-                .withPassword("Vp12345$")
-                ;
+    public void testLoginPositiveProps() {
+      //  String email = "vasya_pupkin@gmail.com", password = "Vp12345$";
         app.getUser().openLoginForm();
-        app.getUser().fillLoginForm(user.getEmail(),user.getPassword());
-        app.getUser().submitLoginForm();
-    }
-    @Test
-    public void testLoginPositiveUserData() {
-        User user=new User()
-                .withEmail("vasya_pupkin@gmail.com")
-                .withPassword("Vp12345$")
-                ;
-        app.getUser().openLoginForm();
-        app.getUser().fillLoginForm(user);
+        app.getUser().fillLoginForm(app.getEmail(), app.getPassword());
         app.getUser().submitLoginForm();
         app.getUser().pause(3000);
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//*[text()=' Logout ']")));
-
     }
+//    @Test
+//    public void testLoginPositiveUser() {
+//        User user=new User()
+//                .withEmail("vasya_pupkin@gmail.com")
+//                .withPassword("Vp12345$")
+//                ;
+//        app.getUser().openLoginForm();
+//        app.getUser().fillLoginForm(user.getEmail(),user.getPassword());
+//        app.getUser().submitLoginForm();
+//    }
+//    @Test
+//    public void testLoginPositiveUserData() {
+//        User user=new User()
+//                .withEmail("vasya_pupkin@gmail.com")
+//                .withPassword("Vp12345$")
+//                ;
+//        app.getUser().openLoginForm();
+//        app.getUser().fillLoginForm(user);
+//        app.getUser().submitLoginForm();
+//        app.getUser().pause(3000);
+//        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//*[text()=' Logout ']")));
+//
+//    }
     @Test(dataProvider ="userDTO",dataProviderClass = ProviderData.class)
     public void testLoginPositiveUserDTO(User user){
 //        User user=new User()

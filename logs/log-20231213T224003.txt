@@ -1,0 +1,6 @@
+22:40:03 INFO  manager.TestNGListener - Test started
+22:40:03 INFO  manager.TestNGListener - TesttestLoginPositive started
+22:40:03 INFO  manager.TestNGListener - Test skipped
+22:40:03 INFO  manager.TestNGListener - TesttestLoginPositiveProps started
+22:40:03 INFO  manager.TestNGListener - Test skipped
+22:40:03 INFO  manager.TestNGListener - Test finished

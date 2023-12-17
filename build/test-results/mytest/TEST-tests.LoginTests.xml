@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LoginTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-12-17T20:45:17" hostname="Ilyas-MacBook-Air.local" time="17.517">
+  <properties/>
+  <testcase name="testLoginPositive" classname="tests.LoginTests" time="0.558"/>
+  <testcase name="testLoginPositiveProps" classname="tests.LoginTests" time="3.533"/>
+  <testcase name="testLoginPositiveUserDTO[0](models.User@67b7c170)" classname="tests.LoginTests" time="3.534"/>
+  <testcase name="testLoginPositiveUserDTO[1](models.User@116a2108)" classname="tests.LoginTests" time="3.535"/>
+  <testcase name="testLoginPositiveUserDTO[2](models.User@5a00eb1e)" classname="tests.LoginTests" time="3.525"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ilcarro.web.app."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ilcarro.web.app."
+1702845933444	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+]]></system-err>
+</testsuite>

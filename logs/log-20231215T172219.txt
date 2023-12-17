@@ -1,0 +1,142 @@
+17:22:22 INFO  manager.ApplicationManager - Tests start on Chrome
+17:22:32 INFO  manager.TestNGListener - Test started
+17:22:32 INFO  tests.TestBase - Test testAddNewCarPositive started
+17:22:32 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+17:22:37 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+17:22:37 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Log in ']
+17:22:37 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Log in '] is found
+17:22:37 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='email']
+17:22:37 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='email'] is found
+17:22:37 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='password']
+17:22:37 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='password'] is found
+17:22:38 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='submit']
+17:22:38 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@type='submit'] is found
+17:22:38 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='button']
+17:22:43 INFO  manager.WebDriverListener - Exception
+17:22:43 INFO  manager.WebDriverListener - no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='button']"}
+  (Session info: chrome=120.0.6099.109)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:7c8a:2484:e640:cce6:74b5%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 84309dd6e2c477f9aa50f7509095832a
+*** Element info: {Using=xpath, value=//button[@type='button']}
+17:22:43 INFO  manager.WebDriverListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='button']"}
+  (Session info: chrome=120.0.6099.109)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:7c8a:2484:e640:cce6:74b5%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 84309dd6e2c477f9aa50f7509095832a
+*** Element info: {Using=xpath, value=//button[@type='button']}
+17:22:44 INFO  manager.WebDriverListener - Screenshot----> src/test/screenshots/screen1363.png
+17:22:44 INFO  manager.TestNGListener - TesttestAddNewCarPositive started
+17:22:44 INFO  manager.TestNGListener - Test skipped
+17:22:44 INFO  tests.TestBase - Test testLoginPositive started
+17:22:44 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+17:22:44 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+17:22:44 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+17:22:44 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+17:22:45 INFO  manager.WebDriverListener - Exception
+17:22:45 INFO  manager.WebDriverListener - element click intercepted: Element <a _ngcontent-sca-c44="" class="navigation-link ng-star-inserted" ng-reflect-query-params="[object Object]" ng-reflect-router-link="logout" href="/logout?url=%2Fsearch">...</a> is not clickable at point (1057, 34). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=120.0.6099.109)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:7c8a:2484:e640:cce6:74b5%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 84309dd6e2c477f9aa50f7509095832a
+17:22:45 INFO  manager.WebDriverListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-sca-c44="" class="navigation-link ng-star-inserted" ng-reflect-query-params="[object Object]" ng-reflect-router-link="logout" href="/logout?url=%2Fsearch">...</a> is not clickable at point (1057, 34). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=120.0.6099.109)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:7c8a:2484:e640:cce6:74b5%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 84309dd6e2c477f9aa50f7509095832a
+17:22:46 INFO  manager.WebDriverListener - Screenshot----> src/test/screenshots/screen1365.png
+17:22:46 INFO  manager.TestNGListener - TesttestLoginPositive started
+17:22:46 INFO  manager.TestNGListener - Test skipped
+17:22:46 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+17:22:46 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+17:22:46 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+17:22:46 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+17:22:47 INFO  manager.WebDriverListener - Exception
+17:22:47 INFO  manager.WebDriverListener - element click intercepted: Element <a _ngcontent-sca-c44="" class="navigation-link ng-star-inserted" ng-reflect-query-params="[object Object]" ng-reflect-router-link="logout" href="/logout?url=%2Fsearch">...</a> is not clickable at point (1057, 34). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=120.0.6099.109)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:7c8a:2484:e640:cce6:74b5%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 84309dd6e2c477f9aa50f7509095832a
+17:22:47 INFO  manager.WebDriverListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-sca-c44="" class="navigation-link ng-star-inserted" ng-reflect-query-params="[object Object]" ng-reflect-router-link="logout" href="/logout?url=%2Fsearch">...</a> is not clickable at point (1057, 34). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=120.0.6099.109)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:7c8a:2484:e640:cce6:74b5%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 84309dd6e2c477f9aa50f7509095832a
+17:22:48 INFO  manager.WebDriverListener - Screenshot----> src/test/screenshots/screen1367.png
+17:22:48 INFO  manager.TestNGListener - TesttestLoginPositiveProps started
+17:22:48 INFO  manager.TestNGListener - Test skipped
+17:22:48 INFO  tests.TestBase - Test testRegistrationNegativeWrongPassword started
+17:22:48 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+17:22:48 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+17:22:48 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+17:22:48 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+17:22:49 INFO  manager.WebDriverListener - Exception
+17:22:49 INFO  manager.WebDriverListener - element click intercepted: Element <a _ngcontent-sca-c44="" class="navigation-link ng-star-inserted" ng-reflect-query-params="[object Object]" ng-reflect-router-link="logout" href="/logout?url=%2Fsearch">...</a> is not clickable at point (1057, 34). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=120.0.6099.109)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:7c8a:2484:e640:cce6:74b5%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 84309dd6e2c477f9aa50f7509095832a
+17:22:49 INFO  manager.WebDriverListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-sca-c44="" class="navigation-link ng-star-inserted" ng-reflect-query-params="[object Object]" ng-reflect-router-link="logout" href="/logout?url=%2Fsearch">...</a> is not clickable at point (1057, 34). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=120.0.6099.109)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:7c8a:2484:e640:cce6:74b5%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 84309dd6e2c477f9aa50f7509095832a
+17:22:50 INFO  manager.WebDriverListener - Screenshot----> src/test/screenshots/screen1369.png
+17:22:50 INFO  manager.TestNGListener - TesttestRegistrationNegativeWrongPassword started
+17:22:50 INFO  manager.TestNGListener - Test skipped
+17:22:50 INFO  manager.TestNGListener - TesttestRegistrationPositive started
+17:22:50 INFO  manager.TestNGListener - Test skipped
+17:22:50 INFO  manager.TestNGListener - TesttestRegistrationPositiveDTO started
+17:22:50 INFO  manager.TestNGListener - Test skipped
+17:22:50 INFO  manager.TestNGListener - TesttestRegistrationPositiveDTO started
+17:22:50 INFO  manager.TestNGListener - Test skipped
+17:22:50 INFO  manager.TestNGListener - TesttestRegistrationPositiveDTO started
+17:22:50 INFO  manager.TestNGListener - Test skipped
+17:22:50 INFO  manager.TestNGListener - TesttestRegistrationPositiveDTO started
+17:22:50 INFO  manager.TestNGListener - Test skipped
+17:22:50 INFO  manager.TestNGListener - TesttestRegistrationPositiveDTO started
+17:22:50 INFO  manager.TestNGListener - Test skipped
+17:22:50 INFO  tests.TestBase - Test searchPositiveTest started
+17:22:50 INFO  manager.TestNGListener - TestsearchPositiveTest started
+17:22:50 INFO  manager.WebDriverListener - Start searching element---> By.id: city
+17:22:55 INFO  manager.WebDriverListener - Exception
+17:22:55 INFO  manager.WebDriverListener - no such element: Unable to locate element: {"method":"css selector","selector":"#city"}
+  (Session info: chrome=120.0.6099.109)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:7c8a:2484:e640:cce6:74b5%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 84309dd6e2c477f9aa50f7509095832a
+*** Element info: {Using=id, value=city}
+17:22:55 INFO  manager.WebDriverListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#city"}
+  (Session info: chrome=120.0.6099.109)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:7c8a:2484:e640:cce6:74b5%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65218}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 84309dd6e2c477f9aa50f7509095832a
+*** Element info: {Using=id, value=city}
+17:22:55 INFO  manager.WebDriverListener - Screenshot----> src/test/screenshots/screen1375.png
+17:22:55 INFO  manager.TestNGListener - Test
+17:22:55 INFO  tests.TestBase - ================================
+17:22:55 INFO  manager.TestNGListener - Test finished

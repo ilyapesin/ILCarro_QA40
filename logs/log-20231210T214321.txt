@@ -1,0 +1,28 @@
+21:43:22 INFO  manager.ApplicationManager - Tests start on Chrome
+21:43:28 INFO  tests.TestBase - Test searchPositiveTest started
+21:43:28 INFO  manager.WebDriverListener - Start searching element---> By.id: city
+21:43:28 INFO  manager.WebDriverListener - Element with locator--->By.id: city is found
+21:43:28 INFO  manager.WebDriverListener - Start searching element---> By.cssSelector: div.pac-item
+21:43:29 INFO  manager.WebDriverListener - Element with locator--->By.cssSelector: div.pac-item is found
+21:43:29 INFO  manager.WebDriverListener - Start searching element---> By.id: dateFrom
+21:43:34 INFO  manager.WebDriverListener - Exception
+21:43:34 INFO  manager.WebDriverListener - no such element: Unable to locate element: {"method":"css selector","selector":"#dateFrom"}
+  (Session info: chrome=119.0.6045.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:56e:944e:885f:3dbb:89cf:b51b%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64952}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9450551835c90e4e3efc64d06a9dad24
+*** Element info: {Using=id, value=dateFrom}
+21:43:34 INFO  manager.WebDriverListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dateFrom"}
+  (Session info: chrome=119.0.6045.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:56e:944e:885f:3dbb:89cf:b51b%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64952}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9450551835c90e4e3efc64d06a9dad24
+*** Element info: {Using=id, value=dateFrom}
+21:43:35 INFO  manager.WebDriverListener - Screenshot----> src/test/screenshots/screen2614.png
+21:43:35 INFO  tests.TestBase - ================================

@@ -58,8 +58,8 @@ public class HelperUser extends HelperBase {
     }
     public void submitRegistrationForm() {
 
-        //click(By.xpath("//*[@type='submit']"));
-        wd.findElement(By.xpath("//*[@type='submit']")).submit();
+        click(By.xpath("//*[@type='submit']"));
+       // wd.findElement(By.xpath("//*[@type='submit']")).submit();
     }
     public void submitLoginForm(){
 

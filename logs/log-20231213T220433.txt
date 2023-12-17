@@ -1,0 +1,120 @@
+22:04:37 INFO  manager.ApplicationManager - Tests start on Chrome
+22:04:46 INFO  manager.TestNGListener - Test started
+22:04:46 INFO  tests.TestBase - Test testLoginPositive started
+22:04:46 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+22:04:52 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+22:04:52 INFO  manager.TestNGListener - TesttestLoginPositive started
+22:04:52 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Log in ']
+22:04:52 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Log in '] is found
+22:04:52 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='email']
+22:04:52 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='email'] is found
+22:04:52 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='password']
+22:04:52 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='password'] is found
+22:04:52 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='submit']
+22:04:52 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@type='submit'] is found
+22:04:52 INFO  manager.TestNGListener - Test testLoginPositive successfully
+22:04:52 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='button']
+22:04:53 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@type='button'] is found
+22:04:53 INFO  tests.TestBase - ================================
+22:04:53 INFO  tests.TestBase - Test testLoginPositiveProps started
+22:04:53 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+22:04:53 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+22:04:53 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+22:04:53 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+22:04:53 INFO  manager.TestNGListener - TesttestLoginPositiveProps started
+22:04:53 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Log in ']
+22:04:53 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Log in '] is found
+22:04:53 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='email']
+22:04:53 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='email'] is found
+22:04:53 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='password']
+22:04:53 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='password'] is found
+22:04:53 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='submit']
+22:04:53 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@type='submit'] is found
+22:04:56 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+22:04:56 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+22:04:56 INFO  manager.TestNGListener - Test testLoginPositiveProps successfully
+22:04:56 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='button']
+22:04:56 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@type='button'] is found
+22:04:56 INFO  tests.TestBase - ================================
+22:04:56 INFO  tests.TestBase - Test testLoginPositiveUser started
+22:04:56 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+22:04:56 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+22:04:56 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+22:04:56 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+22:04:56 INFO  manager.TestNGListener - TesttestLoginPositiveUser started
+22:04:56 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Log in ']
+22:04:56 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Log in '] is found
+22:04:57 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='email']
+22:04:57 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='email'] is found
+22:04:57 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='password']
+22:04:57 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='password'] is found
+22:04:57 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='submit']
+22:04:57 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@type='submit'] is found
+22:04:57 INFO  manager.TestNGListener - Test testLoginPositiveUser successfully
+22:04:57 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='button']
+22:04:57 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@type='button'] is found
+22:04:57 INFO  tests.TestBase - ================================
+22:04:57 INFO  tests.TestBase - Test testLoginPositiveUserDTO started
+22:04:57 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+22:04:57 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+22:04:57 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+22:04:57 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+22:04:57 INFO  manager.TestNGListener - TesttestLoginPositiveUserDTO started
+22:04:57 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Log in ']
+22:04:57 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Log in '] is found
+22:04:57 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='email']
+22:05:02 INFO  manager.WebDriverListener - Exception
+22:05:02 INFO  manager.WebDriverListener - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='email']"}
+  (Session info: chrome=120.0.6099.109)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:8a5b:653c:d9e7:a0d5:42e1%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 10c9ab9552a02180e2ee1a30c2b915d4
+*** Element info: {Using=xpath, value=//*[@id='email']}
+22:05:02 INFO  manager.WebDriverListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='email']"}
+  (Session info: chrome=120.0.6099.109)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:8a5b:653c:d9e7:a0d5:42e1%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 10c9ab9552a02180e2ee1a30c2b915d4
+*** Element info: {Using=xpath, value=//*[@id='email']}
+22:05:03 INFO  manager.WebDriverListener - Screenshot----> src/test/screenshots/screen302.png
+22:05:03 INFO  manager.TestNGListener - Test
+22:05:03 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='button']
+22:05:08 INFO  manager.WebDriverListener - Exception
+22:05:08 INFO  manager.WebDriverListener - no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='button']"}
+  (Session info: chrome=120.0.6099.109)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:8a5b:653c:d9e7:a0d5:42e1%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 10c9ab9552a02180e2ee1a30c2b915d4
+*** Element info: {Using=xpath, value=//button[@type='button']}
+22:05:08 INFO  manager.WebDriverListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='button']"}
+  (Session info: chrome=120.0.6099.109)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:8a5b:653c:d9e7:a0d5:42e1%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 10c9ab9552a02180e2ee1a30c2b915d4
+*** Element info: {Using=xpath, value=//button[@type='button']}
+22:05:09 INFO  manager.WebDriverListener - Screenshot----> src/test/screenshots/screen308.png
+22:05:09 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+22:05:14 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+22:05:14 INFO  manager.TestNGListener - TesttestLoginPositiveUserDTO started
+22:05:14 INFO  manager.TestNGListener - Test skipped
+22:05:14 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+22:05:19 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+22:05:19 INFO  manager.TestNGListener - TesttestLoginPositiveUserDTO started
+22:05:19 INFO  manager.TestNGListener - Test skipped
+22:05:19 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+22:05:24 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+22:05:24 INFO  manager.TestNGListener - TesttestLoginPositiveUserData started
+22:05:24 INFO  manager.TestNGListener - Test skipped
+22:05:24 INFO  manager.TestNGListener - Test finished

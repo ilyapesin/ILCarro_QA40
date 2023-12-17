@@ -1,0 +1,79 @@
+22:10:39 INFO  manager.ApplicationManager - Tests start on Chrome
+22:10:44 INFO  manager.TestNGListener - Test started
+22:10:44 INFO  tests.TestBase - Test testRegistrationPositiveDTO started
+22:10:44 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+22:10:50 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+22:10:50 INFO  manager.TestNGListener - TesttestRegistrationPositiveDTO started
+22:10:50 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Sign up ']
+22:10:50 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Sign up '] is found
+22:10:50 INFO  tests.TestBase - openRegistrationForm invoked
+22:10:50 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='name']
+22:10:50 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='name'] is found
+22:10:50 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='lastName']
+22:10:50 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='lastName'] is found
+22:10:50 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='email']
+22:10:50 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='email'] is found
+22:10:50 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='password']
+22:10:50 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='password'] is found
+22:10:50 INFO  tests.TestBase - fillRegistrationForm invoked
+22:10:50 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@type='submit']
+22:10:50 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@type='submit'] is found
+22:10:50 INFO  tests.TestBase - submitRegistrationForm invoked
+22:10:50 INFO  tests.TestBase - registrationPositive starts successfully with credentials: login joe_12345@gmail.com password $Asdf1234
+22:10:50 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+22:10:55 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+22:10:55 INFO  manager.TestNGListener - Test
+22:10:56 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='button']
+22:10:56 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@type='button'] is found
+22:10:56 INFO  tests.TestBase - ================================
+22:10:56 INFO  tests.TestBase - Test testRegistrationPositiveDTO started
+22:10:56 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+22:11:01 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+22:11:01 INFO  manager.TestNGListener - TesttestRegistrationPositiveDTO started
+22:11:01 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Sign up ']
+22:11:01 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Sign up '] is found
+22:11:01 INFO  tests.TestBase - openRegistrationForm invoked
+22:11:01 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='name']
+22:11:01 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='name'] is found
+22:11:01 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='lastName']
+22:11:01 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='lastName'] is found
+22:11:01 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='email']
+22:11:01 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='email'] is found
+22:11:01 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='password']
+22:11:01 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='password'] is found
+22:11:01 INFO  tests.TestBase - fillRegistrationForm invoked
+22:11:01 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@type='submit']
+22:11:01 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@type='submit'] is found
+22:11:01 INFO  tests.TestBase - submitRegistrationForm invoked
+22:11:01 INFO  tests.TestBase - registrationPositive starts successfully with credentials: login joe_12455@gmail.com password $Asdf1235
+22:11:01 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+22:11:07 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+22:11:07 INFO  manager.TestNGListener - Test
+22:11:08 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='button']
+22:11:13 INFO  manager.WebDriverListener - Exception
+22:11:13 INFO  manager.WebDriverListener - no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='button']"}
+  (Session info: chrome=120.0.6099.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:da3b:c4be:9892:7484:4a20%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52417}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 95167df62498d0c6776d14fa96c37d18
+*** Element info: {Using=xpath, value=//button[@type='button']}
+22:11:13 INFO  manager.WebDriverListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='button']"}
+  (Session info: chrome=120.0.6099.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:da3b:c4be:9892:7484:4a20%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/wv/d1h11w2x5lq...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52417}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 95167df62498d0c6776d14fa96c37d18
+*** Element info: {Using=xpath, value=//button[@type='button']}
+22:11:13 INFO  manager.WebDriverListener - Screenshot----> src/test/screenshots/screen673.png
+22:11:13 INFO  manager.TestNGListener - TesttestRegistrationPositiveDTO started
+22:11:13 INFO  manager.TestNGListener - Test skipped
+22:11:13 INFO  manager.TestNGListener - TesttestRegistrationPositiveDTO started
+22:11:13 INFO  manager.TestNGListener - Test skipped
+22:11:13 INFO  manager.TestNGListener - TesttestRegistrationPositiveDTO started
+22:11:13 INFO  manager.TestNGListener - Test skipped
+22:11:13 INFO  manager.TestNGListener - Test finished

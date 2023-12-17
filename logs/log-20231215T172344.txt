@@ -1,0 +1,55 @@
+17:23:50 INFO  manager.ApplicationManager - Tests start on Firefox
+17:24:00 INFO  manager.TestNGListener - Test started
+17:24:00 INFO  tests.TestBase - Test testLoginPositive started
+17:24:00 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+17:24:05 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+17:24:05 INFO  manager.TestNGListener - TesttestLoginPositive started
+17:24:05 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Log in ']
+17:24:05 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Log in '] is found
+17:24:05 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='email']
+17:24:05 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='email'] is found
+17:24:05 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[@id='password']
+17:24:05 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[@id='password'] is found
+17:24:05 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='submit']
+17:24:05 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@type='submit'] is found
+17:24:06 INFO  manager.TestNGListener - Test testLoginPositive successfully
+17:24:06 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='button']
+17:24:11 INFO  manager.WebDriverListener - Exception
+17:24:11 INFO  manager.WebDriverListener - Unable to locate element: //button[@type='button']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:7c8a:2484:e640:cce6:74b5%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.6.0, moz:processID: 5614, moz:profile: /var/folders/wv/d1h11w2x5lq..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d72b79a4-3dc4-49c1-94f7-856d984be8b3
+*** Element info: {Using=xpath, value=//button[@type='button']}
+17:24:11 INFO  manager.WebDriverListener - org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@type='button']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:7c8a:2484:e640:cce6:74b5%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.6.0, moz:processID: 5614, moz:profile: /var/folders/wv/d1h11w2x5lq..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d72b79a4-3dc4-49c1-94f7-856d984be8b3
+*** Element info: {Using=xpath, value=//button[@type='button']}
+17:24:12 INFO  manager.WebDriverListener - Screenshot----> src/test/screenshots/screen1451.png
+17:24:12 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+17:24:12 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+17:24:12 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //*[text()=' Logout ']
+17:24:12 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //*[text()=' Logout '] is found
+17:24:12 INFO  manager.WebDriverListener - Exception
+17:24:12 INFO  manager.WebDriverListener - Element <a class="navigation-link ng-star-inserted" href="/logout?url=%2Fsearch"> is not clickable at point (1056,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:7c8a:2484:e640:cce6:74b5%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.6.0, moz:processID: 5614, moz:profile: /var/folders/wv/d1h11w2x5lq..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d72b79a4-3dc4-49c1-94f7-856d984be8b3
+17:24:12 INFO  manager.WebDriverListener - org.openqa.selenium.ElementClickInterceptedException: Element <a class="navigation-link ng-star-inserted" href="/logout?url=%2Fsearch"> is not clickable at point (1056,34) because another element <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Ilyas-MacBook-Air.local', ip: '2a01:73c0:66e:7c8a:2484:e640:cce6:74b5%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.6', java.version: '1.8.0_381'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 22.6.0, moz:processID: 5614, moz:profile: /var/folders/wv/d1h11w2x5lq..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d72b79a4-3dc4-49c1-94f7-856d984be8b3
+17:24:13 INFO  manager.WebDriverListener - Screenshot----> src/test/screenshots/screen1452.png
+17:24:13 INFO  manager.TestNGListener - TesttestLoginPositiveProps started
+17:24:13 INFO  manager.TestNGListener - Test skipped
+17:24:13 INFO  manager.TestNGListener - Test finished

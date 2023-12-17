@@ -9,6 +9,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
+import java.io.IOException;
 import java.lang.reflect.Method;
 
 public class TestBase {
@@ -17,7 +18,7 @@ public class TestBase {
     static ApplicationManager app = new
             ApplicationManager(System.getProperty("browser", BrowserType.CHROME));
     @BeforeSuite
-    public void setApp(){
+    public void setApp() throws IOException {
 
         app.init();
     }

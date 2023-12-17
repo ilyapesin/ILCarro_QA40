@@ -1,5 +1,6 @@
 package tests;
 
+import manager.ProviderData;
 import manager.TestNGListener;
 import models.User;
 import org.openqa.selenium.By;
@@ -26,12 +27,32 @@ public class RegistrationTests extends TestBase {
                 .withPassword("Vp12345$")
                 ;
         app.getUser().openRegistrationForm();
-        //logger.info("openRegistrationForm invoked");
+        logger.info("openRegistrationForm invoked");
         app.getUser().fillRegistrationForm(user);
-        //logger.info("fillRegistrationForm invoked");
+        logger.info("fillRegistrationForm invoked");
         app.getUser().submitRegistrationForm();
-       // logger.info("submitRegistrationForm invoked");
-       // logger.info("registrationPositive starts successfully with credentials: login "+user.getEmail()+" password "+user.getPassword());
+        logger.info("submitRegistrationForm invoked");
+        logger.info("registrationPositive starts successfully with credentials: login "+user.getEmail()+" password "+user.getPassword());
+        Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//*[text()=' Logout ']")));
+
+
+    }
+    @Test(dataProvider = "userDTOCSV",dataProviderClass = ProviderData.class)
+    public void testRegistrationPositiveDTO(User user) {
+//        int i=(int)(System.currentTimeMillis()/1000)%3600;
+//        User user=new User()
+//                .withName("Vasya"+i)
+//                .withLastName("Pupkin"+i)
+//                .withEmail("vasya_pupkin"+i+"@gmail.com")
+//                .withPassword("Vp12345$")
+//                ;
+        app.getUser().openRegistrationForm();
+        logger.info("openRegistrationForm invoked");
+        app.getUser().fillRegistrationForm(user);
+        logger.info("fillRegistrationForm invoked");
+        app.getUser().submitRegistrationForm();
+        logger.info("submitRegistrationForm invoked");
+        logger.info("registrationPositive starts successfully with credentials: login "+user.getEmail()+" password "+user.getPassword());
         Assert.assertTrue(app.getUser().isElementPresent(By.xpath("//*[text()=' Logout ']")));
 
 
@@ -51,7 +72,8 @@ public class RegistrationTests extends TestBase {
     }
    @AfterMethod
     public void postconditions() {
-       app.getUser().submitOkButton();
+        app.getUser().submitOkButton();
+        app.getUser().pause(1000);
    }
 
 }

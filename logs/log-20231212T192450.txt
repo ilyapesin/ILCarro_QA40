@@ -1,0 +1,21 @@
+19:24:51 INFO  manager.ApplicationManager - Tests start on Chrome
+19:26:03 INFO  tests.TestBase - Test searchPositiveTest started
+19:26:03 INFO  manager.WebDriverListener - Start searching element---> By.id: city
+19:26:03 INFO  manager.WebDriverListener - Element with locator--->By.id: city is found
+19:26:03 INFO  manager.WebDriverListener - Start searching element---> By.cssSelector: div.pac-item
+19:26:04 INFO  manager.WebDriverListener - Element with locator--->By.cssSelector: div.pac-item is found
+19:26:04 INFO  manager.WebDriverListener - Start searching element---> By.id: dates
+19:26:04 INFO  manager.WebDriverListener - Element with locator--->By.id: dates is found
+19:26:05 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //div[.=' 14 ']
+19:26:05 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //div[.=' 14 '] is found
+19:26:05 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@aria-label='Next month']
+19:26:05 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@aria-label='Next month'] is found
+19:26:06 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@aria-label='Next month']
+19:26:06 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@aria-label='Next month'] is found
+19:26:07 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@aria-label='Next month']
+19:26:07 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@aria-label='Next month'] is found
+19:26:08 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //div[.=' 19 ']
+19:26:08 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //div[.=' 19 '] is found
+19:26:09 INFO  manager.WebDriverListener - Start searching element---> By.xpath: //button[@type='submit']
+19:26:09 INFO  manager.WebDriverListener - Element with locator--->By.xpath: //button[@type='submit'] is found
+19:26:09 INFO  tests.TestBase - ================================
